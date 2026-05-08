@@ -1,0 +1,89 @@
+/* Ben Collins */
+
+html {
+	scroll-behavior: smooth;
+}
+
+main {
+	margin: 5% 2%;
+}
+
+aside {
+	background-color: white;
+	color: #24004a;
+	padding: 2%;
+	margin: 0 5% 5% 2%;
+	border-radius: 25px;
+	float: left;
+}
+
+a {
+	color: #24004a;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+}
+
+a:hover, a:focus {
+	color: #d15a00;
+	text-decoration: underline;
+}
+
+aside p {
+	text-align: center;
+	padding: 10%;
+	margin: 2% 0;
+}
+
+article {
+	margin: 0;
+	overflow: hidden;
+	width: 100%;
+}
+
+article a {
+	width: 100%;
+	min-width: 400px;
+}
+
+article h2 {
+	text-align: center;
+	margin: 2% 0;
+	clear: left;
+	font-size: 1.5em;
+}
+
+article section {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	overflow-x: auto;
+	gap: 5%;
+	margin-left: 0;
+}
+
+article img {
+	float: none;
+	width: 95%;
+	max-width: 100%;
+	height: auto;
+	border: none;
+	margin: 0;
+}
+
+article p {
+	background-color: white;
+	margin: 10% 0;
+	padding: 5% 0;
+	border-radius: 25px;
+}
+
+@media screen and (max-width: 768px) {
+	section img {
+		display: block;
+	}
+	
+	article a {
+		min-width: 200px;
+	}
+}

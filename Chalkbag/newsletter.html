@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!-- Ben Collins -->
+<html lang="en">
+
+<head>
+	<link href="styles/main.css" rel="stylesheet">
+	<link href="styles/newsletter.css" rel="stylesheet">
+	<link rel="stylesheet" href="styles/print.css"
+		media="print">
+	<meta charset="utf-8">
+	<title>Chalkbag</title>
+	<link rel="icon" href="images/favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<meta name="keywords" content="Climbing, Rock Climbing, Bouldering">
+	<meta name="description" content="Join Our Newsletter For Rock Climbing Resources & Tutorials">
+</head>
+
+<body>
+	<header>
+		<h1>Chalkbag</h1>
+		<h2>The Internet's Climbing Catalog</h2>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li id="current"><a href="">Newsletter</a></li>
+			<li><a href="lessons.html">Lessons</a></li>
+			<li><a href="supplies.html">Supplies</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	<main>
+		<section>
+			<img src="images/newsletter-image.jpg" alt="Rock Climber">
+			<h2>Our newsletter is the #1 way to stay current and competitive in the climbing ecosystem</h2>
+			<p>Spend 30 seconds to sign up! You won't regret it, and you can unsubscribe at any time</p>
+			<form action="newsletter-submission.html" method="post">
+					<fieldset>
+					<legend>Contact Information</legend>
+						&emsp;<label for="firstName">First Name:</label>
+						&emsp;<input type="text" id="firstName" name="firstName" required><br>
+						&emsp;<label for="lastName">Last Name:</label>
+						&emsp;<input type="text" id="lastName" name="lastName" required><br>
+						&emsp;<label for="email">Email:</label>
+						&emsp;<input type="email" id="email" name="email" required><br>
+					</fieldset>
+				<br>
+				<fieldset>
+					<legend>Experience Level</legend>
+					&emsp;<input type="radio" id="b" name="experience" value="b">
+					&emsp;<label for="b">Beginner (VB-V2 / 5.5-5.9)</label><br>
+					&emsp;<input type="radio" id="i" name="experience" value="i">
+					&emsp;<label for="i">Intermediate (V3-V5 / 5.10-5.11)</label><br>
+					&emsp;<input type="radio" id="a" name="experience" value="a">
+					&emsp;<label for="a">Advanced (V6+ / 5.12+)</label><br>
+				</fieldset><br>
+				<fieldset>
+					<legend>Select All Topics You Are Interested In</legend>
+					&emsp;<input type="checkbox" id="indoor" name="indoor">
+					&emsp;<label for="indoor">Indoor Climbing</label>
+					&emsp;<input type="checkbox" id="outdoor" name="ourdoor">
+					&emsp;<label for="outdoor">Outdoor Climbing</label><br>
+					&emsp;<input type="checkbox" id="gear" name="gear">
+					&emsp;<label for="gear">Climbing Gear Deals</label>
+					&emsp;<input type="checkbox" id="news" name="news">
+					&emsp;<label for="news">World Climbing News</label><br>
+					&emsp;<input type="checkbox" id="big" name="big">
+					&emsp;<label for="big">Big Wall Climbing</label>
+					&emsp;<input type="checkbox" id="boulder" name="boulder">
+					&emsp;<label for="boulder">Bouldering</label>
+					&emsp;<input type="checkbox" id="famous" name="famous">
+					&emsp;<label for="famous">Famous Rock Climbers</label><br>
+				</fieldset><br>
+				<fieldset>
+					<legend>Type your message here</legend>
+					<textarea id="explaination" name="explaination" placeholder="If you selected 'Other' above, please explain here."></textarea><br>
+					<label for="sources">How did you hear about Chalkbag?</label>
+					&emsp;<select id ="sources" name="sources">
+					<option value="word">Word of Mouth</option>
+					<option value="advertisement">Advertisement</option>
+					<option value="newsletter">Newsletter</option>
+					<option value="other">Other</option>
+					</select><br>
+				</fieldset><br>
+				<input type="reset" value="Reset">
+				<input type="submit" value="Submit">
+			</form>
+			
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2026 Chalkbag LLC</p>
+		<p></p>
+	</footer>
+</body>
+</html>
