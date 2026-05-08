@@ -118,7 +118,7 @@ No build step, no server required.
 **Ben Collins**
 Digital Arts @ UNC Wilmington | Minor in Computer Science | UX/UI Design Focus
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-blue?style=flat-square)](https://github.com/BenDCollins/chalkbag-website)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-blue?style=flat-square)](https://bencollins.webflow.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/bencollins49/)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github)](https://github.com/BenDCollins)
 
