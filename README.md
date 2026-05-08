@@ -14,6 +14,8 @@ Chalkbag is a fictional rock climbing hub designed to serve climbers of all skil
 
 This project was built entirely by hand as a front-end development and UX/UI design exercise. No frameworks, no templates, no generators — just semantic HTML, organized CSS, and a touch of vanilla JavaScript.
 
+View with GitHub pages: https://bendcollins.github.io/chalkbag-website/
+
 ---
 
 ## 🗂️ Site Structure
